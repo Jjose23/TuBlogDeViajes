@@ -1,0 +1,173 @@
+/* Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  /*body style*/
+}
+* body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #e3cea1;
+  background-image: linear-gradient(180deg, #e3cea1 35%, #d1713f 100%);
+  background-repeat: no-repeat;
+  /*header style*/
+  /*main style*/
+  /*footer style*/
+}
+* body header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 25%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+* body header img {
+  position: relative;
+  height: auto;
+}
+* body header nav {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  bottom: 25%;
+  justify-content: space-around;
+}
+* body header nav .navegation {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+* body header nav .navegation li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  width: 20%;
+}
+* body header nav .navegation li:hover {
+  background-color: rgb(0, 97, 101);
+}
+* body header nav .navegation li a {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: "Mooli";
+  font-weight: 600;
+  font-size: larger;
+  color: rgb(76, 29, 1);
+}
+* body header nav .navegation li a:hover {
+  color: rgb(227, 206, 161);
+}
+* body main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 65%;
+}
+* body main article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+* body main article section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 75%;
+}
+* body main article section .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+  margin: 5%;
+  border-radius: 75px 0;
+  overflow: hidden;
+  perspective: 1000px;
+  transition: transform 0.3s ease;
+  box-shadow: 15px 12px 4px rgba(0, 0, 0, 0.2);
+  background-color: #121111;
+  background-image: linear-gradient(116deg, #121111 0%, #acaba9 100%);
+}
+* body main article section .card img {
+  margin-bottom: 5%;
+  height: 350px;
+  width: 550px;
+}
+* body main article section .card h3 {
+  font-weight: 700;
+  margin-bottom: 7%;
+  font-family: "Mooli", sans-serif;
+  font-size: larger;
+}
+* body footer {
+  position: relative;
+  display: flex;
+  height: 15%;
+  bottom: 0;
+  gap: 5%;
+}
+* body footer .about {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+  margin-bottom: 1%;
+  padding-left: 1%;
+}
+* body footer .about h2 {
+  color: rgb(76, 29, 1);
+}
+* body footer .news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1%;
+  width: 15%;
+}
+* body footer .news a {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  text-decoration: none;
+  color: #121111;
+}
+* body footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 25%;
+}
+* body footer .social a {
+  display: flex;
+  height: 100%;
+  width: 10%;
+}
+* body footer .social a ion-icon {
+  transition: 0.3s;
+  height: 100%;
+  width: 100%;
+  color: rgb(76, 29, 1);
+}
+* body footer .social a ion-icon:hover {
+  translate: 0 -7px;
+}/*# sourceMappingURL=style.css.map */
