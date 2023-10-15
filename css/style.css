@@ -8,7 +8,7 @@
 }
 * body {
   display: grid;
-  grid-template-rows: 20% 90% 10%;
+  grid-template-rows: 20% 90% 5%;
   background-color: #d1713f;
   background-image: linear-gradient(180deg, #e3cea1 35%, #d1713f 100%);
   background-repeat: no-repeat;
@@ -120,20 +120,19 @@
 }
 * body main .section-events {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  margin-top: 5%;
-  margin-bottom: 12%;
-  row-gap: 8%;
+  flex-wrap: wrap;
+  margin: -7% 0 8% 0;
 }
 * body main .section-events .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 6%;
+  margin-bottom: 15%;
   height: 500px;
   width: 400px;
   overflow: hidden;
@@ -245,7 +244,7 @@
   align-items: center;
   justify-content: center;
   width: 80%;
-  margin-top: 6%;
+  margin-top: 8%;
   margin-bottom: 11%;
   background-size: cover;
 }
@@ -376,6 +375,27 @@
     height: 10%;
     z-index: -100;
   }
+  body main .section-events {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    gap: 5%;
+  }
+  body main .section-events .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: auto;
+    width: 340px;
+  }
+  body main .section-events .card img {
+    height: 15rem;
+    width: 22rem;
+  }
   body main .section-tips {
     display: flex;
     flex-wrap: wrap;
@@ -428,6 +448,11 @@
     width: 100%;
     height: 10%;
     z-index: -100;
+  }
+  body main .section-events {
+    display: flex;
+    flex-direction: column;
+    margin-top: -39%;
   }
   body main .section-tips {
     display: flex;
@@ -503,12 +528,24 @@
     height: 10%;
     z-index: -100;
   }
+  body main .section-events {
+    display: flex;
+  }
+  body main .section-events .card {
+    display: flex;
+    height: auto;
+    width: 240px;
+  }
+  body main .section-events .card img {
+    height: 10rem;
+    width: 17rem;
+  }
   body main .section-tips {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 15%;
     overflow: hidden;
   }
   body main .section-tips .titulos-tips {
