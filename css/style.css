@@ -74,6 +74,59 @@
   margin-top: 3%;
   /*tips style*/
 }
+* body main .titulo-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16vh;
+}
+* body main .titulo-home h1 {
+  font-family: "Playpen Sans", cursive;
+  font-weight: 600;
+}
+* body main .titulo-tips {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10vh;
+  margin-bottom: 16vh;
+}
+* body main .titulo-tips h1 {
+  font-family: "Playpen Sans", cursive;
+  font-weight: 600;
+}
+* body main .titulo-events {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -19vh;
+  margin-bottom: 19vh;
+}
+* body main .titulo-events h1 {
+  font-family: "Playpen Sans", cursive;
+  font-weight: 600;
+}
+* body main .titulo-map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4vh;
+  margin-bottom: 10vh;
+}
+* body main .titulo-map h1 {
+  font-family: "Playpen Sans", cursive;
+  font-weight: 600;
+}
+* body main .titulo-store {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6vh;
+}
+* body main .titulo-store h1 {
+  font-family: "Playpen Sans", cursive;
+  font-weight: 600;
+}
 * body main .section-tips {
   display: flex;
   flex-direction: column;
@@ -174,6 +227,10 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 3%;
+}
+* body main .section-map .map .map-g {
+  width: 350px;
+  height: 300px;
 }
 * body main .section-map .map h2 {
   margin-bottom: 4%;
@@ -376,6 +433,18 @@
     height: 10%;
     z-index: -100;
   }
+  body main .titulo-home {
+    margin-top: -18vh;
+  }
+  body main .titulo-tips {
+    margin-top: 10vh;
+  }
+  body main .titulo-events {
+    margin-top: 0.1vh;
+  }
+  body main .titulo-map {
+    margin-top: 18vh;
+  }
   body main .section-tips {
     display: flex;
     flex-wrap: wrap;
@@ -404,6 +473,12 @@
   body main .section-events .card img {
     height: 15rem;
     width: 22rem;
+  }
+  body main .section-map {
+    display: flex;
+    margin-top: 9vh;
+    margin-bottom: 70vh;
+    gap: 6%;
   }
   body main .section-store {
     display: flex;
@@ -467,18 +542,42 @@
     height: 10%;
     z-index: -100;
   }
+  body main .titulo-home {
+    margin-top: -8vh;
+  }
+  body main .titulo-tips {
+    margin-top: 10vh;
+  }
+  body main .titulo-events {
+    margin-top: -50vh;
+    margin-bottom: 50vh;
+  }
+  body main .titulo-map {
+    margin-top: -9vh;
+  }
   body main .section-tips {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 12vh;
   }
   body main .section-events {
     display: flex;
     flex-direction: column;
     margin-top: -33%;
+  }
+  body main .section-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body main .section-map .map .map-g {
+    display: flex;
+    width: 24rem;
+    height: 20rem;
   }
   body main .section-store {
     display: flex;
@@ -509,6 +608,7 @@
     align-items: center;
     justify-content: center;
     width: 80%;
+    margin-top: 15vh;
     margin-bottom: 7%;
     background-size: cover;
   }
@@ -563,12 +663,37 @@
     height: 10%;
     z-index: -100;
   }
+  body main .titulo-home {
+    display: flex;
+    margin-top: -2vh;
+    margin-bottom: -12vh;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .titulo-tips {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vh;
+    margin-bottom: -4vh;
+  }
+  body main .titulo-events {
+    margin-top: -35vh;
+    margin-bottom: 40vh;
+  }
+  body main .titulo-map {
+    margin-top: -10vh;
+  }
+  body main .titulo-store {
+    margin-top: -55vh;
+    margin-bottom: 60vh;
+  }
   body main .section-tips {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 15vh;
     overflow: hidden;
   }
   body main .section-tips .titulos-tips {
@@ -585,6 +710,20 @@
   body main .section-events .card img {
     height: 10rem;
     width: 17rem;
+  }
+  body main .section-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .section-map .map {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body main .section-map .map .map-g {
+    display: flex;
+    width: 18rem;
+    height: 18rem;
   }
   body main .section-store {
     display: flex;
