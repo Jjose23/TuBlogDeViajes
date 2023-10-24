@@ -343,14 +343,12 @@
         main {
             .titulo-home{
                 @include flex(row, center, center);
-                margin-top: 1vh;
-                margin-bottom: -12vh;
+                margin: 1vh 0 -12vh 7%;
                 
             }
             .titulo-tips{
                 @include flex( row, center, center);
-                margin-top: 9vh;
-                margin-bottom: -4vh;
+                margin: 9vh 0  -4vh 7%;
             }
             
             .titulo-events{
