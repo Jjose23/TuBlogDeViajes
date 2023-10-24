@@ -1,0 +1,15 @@
+/*body general style*/
+body {
+    display: grid;
+    grid-template-rows: 20% 90% 5%;
+    background-color: #d1713f;
+    background-image: linear-gradient(180deg, #e3cea1 35%, #d1713f 100%);
+    background-repeat: no-repeat;
+}
+
+/*main general style*/
+main {
+    display: grid;
+    grid-column: 1/4;
+    margin-top: 3%;
+}

@@ -1,0 +1,62 @@
+/*footer style*/
+
+footer {
+    display: grid;
+    grid-column: 1/4;
+
+    .miFooter {
+        display: flex;
+        width: 100%;
+        gap: 10%;
+
+        .about {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            margin-bottom: 1%;
+            padding-left: 3%;
+
+            h2 {
+                color:$miColor;
+            }
+        }
+
+        .news {
+            @include flex(row, center, center);
+            margin-bottom: 1%;
+            width: 15%;
+
+            a {
+                display: flex;
+                height: 100%;
+                align-items: center;
+                text-decoration: none;
+                color: #121111;
+            }
+        }
+
+        .social {
+            @include flex(row, center, space-around);
+            width: 25%;
+
+            a {
+                display: flex;
+                height: 100%;
+                width: 10%;
+
+                ion-icon {
+                    transition: 0.3s;
+                    height: 100%;
+                    width: 100%;
+                    color:$miColor;
+
+                    &:hover {
+                        translate: 0 -7px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

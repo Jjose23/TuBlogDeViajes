@@ -1,0 +1,67 @@
+// main-tips style
+
+.titulo-tips{
+    @include flex(row, center, center);
+    margin-top: -10vh;
+    margin-bottom: 16vh;
+
+    h1{
+        font-family: 'Playpen Sans', cursive;
+        font-weight: 600;
+    }
+}
+.section-tips {
+    display: flex;
+    flex-direction: column;
+    margin-top: -3%;
+    margin-bottom: 6%;
+
+    .titulos-tips {
+        margin-top: 2%;
+
+    }
+
+
+    .article-tips {
+        display: flex;
+        background: rgba(104, 104, 147, 0.3);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        height: auto;
+        width: 80%;
+        margin-top: 2%;
+        margin-bottom: 7%;
+        border-radius: 20px;
+        overflow: hidden;
+        transition: 0.5s;
+
+        .imagen {
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+
+            img {
+                height: 300px;
+                width: 270px;
+            }
+        }
+
+        .container {
+            margin-top: 2%;
+            
+            .btn {
+                background:map-get($miBoton, mi-background );
+                border-radius: map-get($miBoton, mi-borderRadius );
+                border:map-get($miBoton, mi-border );
+            }
+
+
+
+
+        }
+
+    }
+
+}

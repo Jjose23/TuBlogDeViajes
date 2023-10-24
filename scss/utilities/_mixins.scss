@@ -1,0 +1,16 @@
+/* mis mixin*/
+
+
+// Aplica propiedades de display, flex-direction, align-items y justify-content
+@mixin flex($flex-direction, $align-items, $justify-content){
+    display: flex;
+    flex-direction: $flex-direction;
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
+
+// Aplica propiedades de aling-item y justify-content
+@mixin order($align-items, $justify-content){
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
