@@ -727,14 +727,14 @@ footer .miFooter .social a ion-icon:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 1vh 0 -12vh 7%;
+    margin: 1vh 0 -12vh 9%;
   }
   body main .titulo-tips {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 9vh 0 -4vh 7%;
+    margin: 9vh 0 -4vh 9%;
   }
   body main .titulo-events {
     margin-top: -20vh;
