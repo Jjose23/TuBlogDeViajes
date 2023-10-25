@@ -20,7 +20,7 @@ body {
 main {
   display: grid;
   grid-column: 1/4;
-  margin-top: 3%;
+  margin-top: 10%;
 }
 
 /*header style*/
@@ -476,8 +476,11 @@ footer .miFooter .social a ion-icon:hover {
     height: 10%;
     z-index: -100;
   }
+  body main {
+    margin-top: 20%;
+  }
   body main .titulo-home {
-    margin-top: -18vh;
+    margin-top: -10vh;
   }
   body main .titulo-tips {
     margin-top: 10vh;
@@ -486,7 +489,7 @@ footer .miFooter .social a ion-icon:hover {
     margin-top: 0.1vh;
   }
   body main .titulo-map {
-    margin-top: 18vh;
+    margin-top: 10vh;
   }
   body main .section-tips {
     display: flex;
@@ -590,6 +593,9 @@ footer .miFooter .social a ion-icon:hover {
     height: 10%;
     z-index: -100;
   }
+  body main {
+    margin-top: 20vh;
+  }
   body main .titulo-home {
     margin-top: -8vh;
   }
@@ -597,8 +603,8 @@ footer .miFooter .social a ion-icon:hover {
     margin-top: 10vh;
   }
   body main .titulo-events {
-    margin-top: -50vh;
-    margin-bottom: 50vh;
+    margin-top: -30vh;
+    margin-bottom: 40vh;
   }
   body main .titulo-map {
     margin-top: -9vh;
@@ -721,27 +727,25 @@ footer .miFooter .social a ion-icon:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 1vh;
-    margin-bottom: -12vh;
+    margin: 1vh 0 -12vh 7%;
   }
   body main .titulo-tips {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 9vh;
-    margin-bottom: -4vh;
+    margin: 9vh 0 -4vh 7%;
   }
   body main .titulo-events {
-    margin-top: -30vh;
+    margin-top: -20vh;
     margin-bottom: 40vh;
   }
   body main .titulo-map {
     margin-top: -6vh;
   }
   body main .titulo-store {
-    margin-top: -50vh;
-    margin-bottom: 60vh;
+    margin-top: -80vh;
+    margin-bottom: -20vh;
   }
   body main .section-tips {
     display: flex;
@@ -790,7 +794,7 @@ footer .miFooter .social a ion-icon:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: -100vh;
+    margin-top: -30vh;
   }
   body main .section-store .card {
     height: 10%;

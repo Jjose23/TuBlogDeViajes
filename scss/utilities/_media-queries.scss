@@ -43,8 +43,9 @@
         }
 
         main {
+            margin-top: 20%;
             .titulo-home{
-                margin-top: -18vh;
+                margin-top: -10vh;
             }
             .titulo-tips{
                 margin-top: 10vh;
@@ -53,7 +54,7 @@
                 margin-top: 0.1vh;
             }
             .titulo-map{
-                margin-top: 18vh;
+                margin-top: 10vh;
             }
             .section-tips {
                 @include flex(column, center, center);
@@ -181,6 +182,7 @@
         }
 
         main {
+            margin-top: 20vh;
             .titulo-home{
                 margin-top: -8vh;
             }
@@ -188,8 +190,8 @@
                 margin-top: 10vh;
             }
             .titulo-events{
-                margin-top: -50vh;
-                margin-bottom: 50vh;
+                margin-top: -30vh;
+                margin-bottom: 40vh;
             }
             .titulo-map{
                 margin-top: -9vh;
@@ -343,26 +345,26 @@
         main {
             .titulo-home{
                 @include flex(row, center, center);
-                margin-top: 1vh;
-                margin-bottom: -12vh;
+                margin: 1vh 0 -12vh 7%;
+                
                 
             }
             .titulo-tips{
                 @include flex( row, center, center);
-                margin-top: 9vh;
-                margin-bottom: -4vh;
+                margin: 9vh 0  -4vh 7%;
+                
             }
             
             .titulo-events{
-                margin-top: -30vh;
+                margin-top: -20vh;
                 margin-bottom: 40vh;
             }
             .titulo-map{
                 margin-top: -6vh;
             }
             .titulo-store{
-                margin-top: -50vh;
-                margin-bottom: 60vh;
+                margin-top: -80vh;
+                margin-bottom: -20vh;
             }
             .section-tips {
                 @include flex(row, center, center);
@@ -420,7 +422,7 @@
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
-                margin-top: -100vh;
+                margin-top: -30vh;
                 
                 
 
