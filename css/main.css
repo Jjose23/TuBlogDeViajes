@@ -533,8 +533,7 @@ footer .miFooter .social a ion-icon:hover {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    -moz-column-gap: 10%;
-         column-gap: 10%;
+    column-gap: 10%;
     margin-top: 5%;
   }
   body main .section-store .card {
@@ -641,8 +640,7 @@ footer .miFooter .social a ion-icon:hover {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: -6%;
-    -moz-column-gap: 9%;
-         column-gap: 9%;
+    column-gap: 9%;
   }
   body main .section-store .card {
     height: 20%;
@@ -695,7 +693,7 @@ footer .miFooter .social a ion-icon:hover {
   }
   body header nav {
     height: 30%;
-    width: 35%;
+    width: 45%;
     align-items: center;
     justify-content: center;
     border: dashed rgb(76, 29, 1);

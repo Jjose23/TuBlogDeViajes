@@ -44,80 +44,85 @@
 
         main {
             margin-top: 20%;
-            .titulo-home{
+
+            .titulo-home {
                 margin-top: -10vh;
             }
-            .titulo-tips{
+
+            .titulo-tips {
                 margin-top: 10vh;
             }
-            .titulo-events{
+
+            .titulo-events {
                 margin-top: 0.1vh;
             }
-            .titulo-map{
+
+            .titulo-map {
                 margin-top: 10vh;
             }
+
             .section-tips {
                 @include flex(column, center, center);
                 flex-wrap: wrap;
                 margin-top: 10%;
             }
 
-            .section-events{
+            .section-events {
                 @include flex(row, center, center);
                 flex-wrap: wrap;
                 margin-top: 5%;
-                gap: 5% ;
+                gap: 5%;
 
-                .card{
+                .card {
                     @include flex(column, center, center);
                     background-size: cover;
                     height: auto;
                     width: 340px;
-                    
-                    
-                    img{
+
+
+                    img {
                         height: 15rem;
                         width: 22rem;
                     }
-                    
-                    
-                    
+
+
+
                 }
 
             }
 
-            .section-map{
+            .section-map {
                 display: flex;
                 margin-top: 9vh;
                 margin-bottom: 70vh;
-                gap: 6% ;
+                gap: 6%;
 
-                
+
             }
 
-            .section-store{
+            .section-store {
                 @include flex(row, center, center);
                 flex-wrap: wrap;
-                column-gap: 10% ;
+                column-gap: 10%;
                 margin-top: 5%;
 
-                .card{
+                .card {
                     height: 25%;
                     width: 19rem;
-                    
-                    img{
+
+                    img {
                         height: 25rem;
                         width: 9rem;
                     }
                 }
-                
+
             }
-            
+
 
             section {
                 @include flex(row, center, center);
                 flex-wrap: wrap;
-                
+
             }
         }
 
@@ -183,39 +188,44 @@
 
         main {
             margin-top: 20vh;
-            .titulo-home{
+
+            .titulo-home {
                 margin-top: -8vh;
             }
-            .titulo-tips{
+
+            .titulo-tips {
                 margin-top: 10vh;
             }
-            .titulo-events{
+
+            .titulo-events {
                 margin-top: -30vh;
                 margin-bottom: 40vh;
             }
-            .titulo-map{
+
+            .titulo-map {
                 margin-top: -9vh;
             }
+
             .section-tips {
                 @include flex(column, center, center);
                 flex-wrap: wrap;
                 margin-top: 12vh;
             }
 
-            .section-events{
+            .section-events {
                 display: flex;
                 flex-direction: column;
                 margin-top: -33%;
             }
 
-            .section-map{
+            .section-map {
                 @include flex(row, center, center);
                 flex-wrap: wrap;
 
-                .map{
-                    
+                .map {
 
-                    .map-g{
+
+                    .map-g {
                         display: flex;
                         width: 24rem;
                         height: 20rem;
@@ -223,29 +233,29 @@
                 }
             }
 
-            .section-store{
+            .section-store {
                 @include flex(row, center, center);
                 flex-wrap: wrap;
                 margin-top: -6%;
-                column-gap: 9% ;
-                
+                column-gap: 9%;
 
-                .card{
+
+                .card {
                     height: 20%;
                     width: 14rem;
 
-                    img{
+                    img {
                         height: 28rem;
                         width: 9rem;
                     }
                 }
             }
-            
+
 
             section {
                 @include flex(row, center, center);
                 flex-wrap: wrap;
-                
+
 
                 .articles {
                     @include flex(column, center, center);
@@ -311,7 +321,7 @@
 
             nav {
                 height: 30%;
-                width: 35%;
+                width: 45%;
                 @include order(center, center);
                 border: dashed rgb(76, 29, 1);
                 border-radius: 20px;
@@ -343,27 +353,31 @@
         }
 
         main {
-            .titulo-home{
+            .titulo-home {
                 @include flex(row, center, center);
                 margin: 1vh 0 -12vh 9%;
-                
+
             }
-            .titulo-tips{
-                @include flex( row, center, center);
-                margin: 9vh 0  -4vh 9%;
+
+            .titulo-tips {
+                @include flex(row, center, center);
+                margin: 9vh 0 -4vh 9%;
             }
-            
-            .titulo-events{
+
+            .titulo-events {
                 margin-top: -20vh;
                 margin-bottom: 40vh;
             }
-            .titulo-map{
+
+            .titulo-map {
                 margin-top: -6vh;
             }
-            .titulo-store{
+
+            .titulo-store {
                 margin-top: -80vh;
                 margin-bottom: -20vh;
             }
+
             .section-tips {
                 @include flex(row, center, center);
                 flex-wrap: wrap;
@@ -373,62 +387,65 @@
                 .titulos-tips {
                     margin-left: 15%;
                 }
-                .article-tips{
-                    .imagen{
-                        img{
+
+                .article-tips {
+                    .imagen {
+                        img {
                             height: 250px;
                             width: 200px;
                         }
                     }
-                    
-                    
+
+
                 }
             }
-            .section-events{
-                display: flex;
-                
-                
 
-                .card{
+            .section-events {
+                display: flex;
+
+
+
+                .card {
                     display: flex;
                     height: auto;
                     width: 240px;
 
-                    img{
+                    img {
                         height: 10rem;
                         width: 17rem;
                     }
                 }
             }
-            .section-map{
-                @include flex(row, center, center);
-                
 
-                .map{
+            .section-map {
+                @include flex(row, center, center);
+
+
+                .map {
                     display: flex;
                     flex-wrap: wrap;
 
-                    .map-g{
+                    .map-g {
                         display: flex;
                         width: 18rem;
                         height: 18rem;
                     }
                 }
             }
-            
-            .section-store{
+
+            .section-store {
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
                 margin-top: -30vh;
-                
-                
 
-                .card{
+
+
+                .card {
                     height: 10%;
                     width: 14rem;
 
-                    img{
+                    img {
                         height: 28rem;
                         width: 9rem;
                     }
@@ -443,7 +460,7 @@
                 .articles {
                     @include flex(column, center, center);
                     width: 80%;
-                    
+
                     margin-bottom: 11%;
                     background-size: cover;
 
